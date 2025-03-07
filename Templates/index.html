@@ -35,19 +35,19 @@
     </style>
 </head>
 <body>
-    <h1>Bienvenido a mi Landing Page</h1>
+    <h1>Benvingut a la Landing Page de Xavi</h1>
 
     <div class="datos">
-        <h2>Datos Personales</h2>
-        <p><strong>Nombre:</strong> {{ datos.nombre }}</p>
-        <p><strong>Profesión:</strong> {{ datos.profesion }}</p>
-        <p><strong>Email:</strong> {{ datos.email }}</p>
-        <p><strong>Teléfono:</strong> {{ datos.telefono }}</p>
-        <p><strong>Dirección:</strong> {{ datos.direccion }}</p>
+        <h2>Dades Personals</h2>
+        <p><strong>Nom:</strong> {{ datos.Nom }}</p>
+        <p><strong>MalNom:</strong> {{ datos.MalNom }}</p>
+        <p><strong>Email:</strong> {{ datos.Email }}</p>
+        <p><strong>Telèfon:</strong> {{ datos.Telèfon }}</p>
+        <p><strong>Adreça:</strong> {{ datos.Adreça }}</p>
     </div>
 
     <div class="programas">
-        <h2>Programas</h2>
+        <h2>Programes</h2>
         {% for programa in programas %}
             <a href="{{ programa.ruta }}">{{ programa.nombre }}</a>
         {% endfor %}

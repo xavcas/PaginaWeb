@@ -6,11 +6,11 @@ app = Flask(__name__)
 def home():
     # Datos personales
     datos_personales = {
-        'nombre': 'Xavi Castillo',
-        'profesion': 'Tu Master Phyton',
-        'email': 'xavcas@gmail.com',
-        'telefono': '+34 620 037 437',
-        'direccion': 'Can Ros, 32; 08027 Barcelona; Catalunya'
+        'Nom': 'Xavi Castillo',
+        'MalNom': 'Tu Master Phyton',
+        'Email': 'xavcas@gmail.com',
+        'Telèfon': '+34 620 037 437',
+        'Adreça': 'Can Ros, 32; 08027 Barcelona; Catalunya'
     }
 
     # Enlaces a programas (rutas locales o enlaces externos)
